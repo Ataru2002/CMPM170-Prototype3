@@ -16,11 +16,11 @@ const score = document.createElement("h1");
 const lineBreak1 = document.createElement("br");
 const lineBreak2 = document.createElement("br");
 const lineBreak3 = document.createElement("br");
-const lose = new Audio("./assets/jumpscare.mp3");
+const lose = new Audio("./src/assets/jumpscare.mp3");
 
-button.src = `./assets/button.png`;
-box.src = `./assets/box.png`;
-jumpscare.src = `./assets/Jumpscare.jpg`;
+button.src = `./src/assets/button.png`;
+box.src = `./src/assets/box.png`;
+jumpscare.src = `./src/assets/Jumpscare.jpg`;
 
 text.innerHTML = `click me if you wanna see what's in the box!`;
 score.innerHTML = `Your score: ${danger}`;
